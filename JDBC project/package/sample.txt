@@ -1,1 +1,1 @@
-hello 
+# remember to change your own password in mysql database
