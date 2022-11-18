@@ -12,7 +12,7 @@ public class Module {
 	public void Connect() {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/project","root","v5C59R@Z");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/project","root","your password");
 			System.out.println("Connected");
 		}catch (Exception ex) { //exception handling (if any)
 			System.out.println("Cannot connect");
